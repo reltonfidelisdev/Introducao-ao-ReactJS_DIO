@@ -1,0 +1,8 @@
+É uma linguagem criada para facilitar a escrita do html com javascript
+
+ex: 
+const elementHtml = <h1>Olá Mundo</h1>;
+
+Nem HTML e nem uma string
+Eu posso escrever html, ter funções e variáveis dentro do JSX
+

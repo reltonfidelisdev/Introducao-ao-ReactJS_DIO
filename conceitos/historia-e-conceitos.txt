@@ -1,0 +1,48 @@
+O que é o ReactJS?
+Uma biblioteca Javascript para criar interface de usuário.
+Versão atual: 17.0.2 (10/11/2021)
+
+Quem criou?
+O ReactJS foi criado por Jordan Walke no Facebook.
+Baseado no XHP, um framework para criação de HTML no PHP.
+Utilizado no feed de notícias do Facebook que utilizava o XHP.
+
+2012 - Utilizado no Instagram
+2013 Anunciado para liberação OpenSource na JSConf US
+2015 - React Native
+2015 UWP [Universal Windows Plataform]
+
+React é uma biblioteca e não um framework.
+A principal função do React é criação da interface para o usuário.
+
+React é uma linguagem declarativa.
+
+[Pesquise sobre linguagem: Declatativa vs Imperativa]
+
+O React está preoculpado apenas com o que é exibido na interface do usuario.
+
+
+# Beneficios ou não :P
+
+É baseado em componentes
+Pode ser usado em qualquer lugar
+
+Quem utiliza React?
+players = ['Facebook', 'Whats App' , 'The New York Times', 'Luiza Labs' 'Netflix', 'instagram', 'Nubank', 'Air B and B', 'IFood', 'Atlassian' ]
+
+
+# Configuração
+
+[comandos e libs]
+
+React Create App
+React Scripts
+Task Runners e Bundler Sizers
+
+
+// Iniciando um projeto NPM
+npm init 
+
+// Instalando as bibliotecas necessárias
+npm install react react-dom react-scripts
+
