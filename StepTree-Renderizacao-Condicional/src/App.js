@@ -1,50 +1,31 @@
 import React from "react";
 
-const buttonA = <button>Histórico dos Clientes</button>
-
-const buttonB = <button>Cadastrar Cliente</button>
-
-const hasCustomer = true
+const listCostumer = [
+  {id: 1,
+    nome: 'Relton Lima'
+  },
+  {id: 2,
+    nome: 'Relton Fidelis'
+  },
+  {id: 3,
+    nome: 'Relton Ferreira'
+  }
+]
 
 const App = () => {
 
-  const renderShowHistory = (
-    <div>
-      Clique no botão abaixo para visualizar o histórico dos clientes
-      <br />
-      {buttonA}
-    </div>
-  )
-
-  const renderAddCustomer = (
-    <div>
-      Clique abaixo para cadastrar o cliente
-      <br />
-      {buttonB}
-    </div>
-  )
-
-  const showCustomer = () => {
-
-    if (!hasCustomer) return null
+  const renderCostumers = (costumer , index) => {
     return (
-      <div>
-        <h1>Nome do Cliente: Relton Fidelis</h1>
-      </div>
+    <li key={`costomer_id_${costumer.id}`}>{costumer.nome}</li>
     )
   }
 
-  console.log('hasCustomer', hasCustomer)
-  
   return (
-    <div>
-      <p>Digital Innovation One</p>
-      <p>Bem vindo a nossa aula =D.</p>
-      {hasCustomer ? renderShowHistory : renderAddCustomer}
-      <div>
-        {showCustomer()}
-      </div>
-    </div>
+  <div>
+    <ul>
+      {listCostumer.map(renderCostumers)}
+    </ul>
+  </div>
   );
 };
 export default App;
