@@ -2,7 +2,7 @@
   "name": "steptwo-webpack-config",
   "version": "1.0.0",
   "description": "",
-  "main": "teste.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development",
@@ -23,6 +23,7 @@
     "html-webpack-plugin": "^5.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^4.0.3",
+    "webpack-dev-server": "^4.4.0"
   }
 }
